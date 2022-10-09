@@ -1,0 +1,78 @@
+* {
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box;}
+
+body {
+        background-color: rgb(28, 27, 29); 
+        font-family: 'Gemunu Libre', sans-serif;}
+
+    section {
+        display: flex; 
+        height: 100vh;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-direction: column;
+        flex-wrap: wrap; }
+
+    .one, .two, .three { 
+        width: 400px; 
+        height: 600px;
+        padding: 60px;
+        border: 5px solid rgb(255, 255, 255);
+        border-radius:25px ;
+        font-size: 50px;}
+
+    a{color: white;}
+
+    .one {background-color: rgb(31, 95, 31);}
+        
+    .two {background-color: rgb(60, 60, 131);}
+    
+    .three {background-color: rgb(114, 34, 34);}
+
+    h1 {
+        color: white ; 
+        text-align: center; 
+        font-size: 100px;
+        text-decoration: double;
+        background-color: rgb(100, 88, 121);
+        padding: 60px;
+        border: 5px solid rgb(255, 255, 255);
+        border-radius:25px ;}
+
+    h2 {
+        text-align: center;
+        color: white ; 
+        font-size: 75px;
+        padding: 40px;
+    }
+@media screen and (max-width: 900px) {
+    .one, .two, .three { font-size:30px ;}
+    }
+
+    p{color: white;
+        font-size: 40px;
+        padding: 60px;
+        text-align: center
+    }
+
+    .G1 img{width: 600px;}
+
+    .G2 img{width: 400px;}
+
+    .imag{
+        flex-wrap: wrap;
+        padding: 60px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .G2{justify-content: space-evenly;}
+
+    .weblink a{
+        font-size: 40px;
+        padding: 60px;
+        text-align: center;
+        color: yellow;
+    }
